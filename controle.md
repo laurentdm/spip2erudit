@@ -4,11 +4,15 @@ Après la migration automatisée, opérations à effectuer pour le contrôle éd
 
 - contrôler la présence des résumés //resume
 - contrôler la structure hiérarchique (section1 isolée //corps[count(section1)=1], lorsqu’il y a un traducteur le mettre à la fin.
+  //body[count(section1)=1]
+  //corps/section2
 - vérifier l’intégrité des notes (lorsque les notes débutent par un hyperlien, celui-ci a été supprimé) //partiesann/grnote/note 
 - contrôler le nombre d’images dans chaque article fn:count(//figure)
 - contrôle les tableaux
 - Distinguer les articles en fonction de leur statut (article, compte-rendu, etc. attendre les valeurs d’Érudit) attribut @typeart sur <article> [en attendant Erudit, utiliser : article, essai, cr]
 - Vérifier la présence de la biblio
+- Vérifier les bloccitation qui se suivent (la référence étant isolée dans un autre bloccitation) et indiquer la référence sous une balise <source>
+  //bloccitation[following-sibling::bloccitation]
 
 ## à déterminer avec Marcello
 
