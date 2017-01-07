@@ -10,6 +10,7 @@ Après la migration automatisée, opérations à effectuer pour le contrôle éd
 - distinguer les articles en fonction de leur statut (article, compte-rendu, etc. attendre les valeurs d’Érudit) attribut @typeart sur <article> [en attendant Erudit, utiliser : article, essai, cr, presentation]
 - supprimer la table des matières des articles de présentation.
 - Vérifier la présence de la biblio
+- Vérifier l'attribut <lang> dans Article
 
 ## à déterminer avec Marcello
 
