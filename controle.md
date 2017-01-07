@@ -7,7 +7,7 @@ Après la migration automatisée, opérations à effectuer pour le contrôle éd
 - vérifier l’intégrité des notes (lorsque les notes débutent par un hyperlien, celui-ci a été supprimé) //partiesann/grnote/note 
 - contrôler le nombre d’images dans chaque article fn:count(//figure)
 - contrôle les tableaux
-- distinguer les articles en fonction de leur statut (article, compte-rendu, etc. attendre les valeurs d’Érudit) attribut @typeart sur <article> [en attendant Erudit, utiliser : article, essai, cr, presentation]
+- distinguer les articles en fonction de leur statut (article, compte-rendu, etc. attendre les valeurs d’Érudit) attribut @typeart sur <article> [en attendant Erudit, utiliser : article, essai, cr, presentation, chronique, entretien, colloque]
 - supprimer la table des matières des articles de présentation.
 - Vérifier la présence de la biblio
 
